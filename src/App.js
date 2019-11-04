@@ -6,6 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Girls Code MK</p>
+
+        <p>
+          Hello and welcome!Our office is located in Bletchley Park, the home of
+          the 'codebreakers'
+        </p>
+        <p>To book a place for our meetup use the following link</p>
+        <a href="https://www.meetup.com/Girls-Code-Learn-to-Code-with-Other-Girls-and-Women/messages/boards/thread/51951778">
+          > Book Here
+        </a>
       </header>
     </div>
   );
