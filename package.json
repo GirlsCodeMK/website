@@ -2,6 +2,10 @@
   "name": "girlscodemk",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.16.2"
+  },
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
