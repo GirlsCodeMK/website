@@ -7,16 +7,29 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={Mansion} alt="Bletchley Park Mansion" />
-        <p>Girls Code MK</p>
+        <p>women Code MK</p>
         <p>
           Hello and Welcome! Our office is located in Bletchley Park, the home
           of the 'codebreakers'
         </p>
         <p>To book a place for our meetup use the following link</p>
-        <a href="https://www.meetup.com/Girls-Code-Learn-to-Code-with-Other-Girls-and-Women/messages/boards/thread/51951778">
+        <a href="https://www.meetup.com/women-Code-Learn-to-Code-with-Other-women-and-Women/messages/boards/thread/51951778">
           Book Here
         </a>
-        <p>Events - coming soon - Django Girls</p>
+        <p>
+          <iframe
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/283072310"
+            width="640"
+            height="360"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </p>
+        <p>
+          Events - coming soon * Django women - python website * Node School -
+          Back end development for beginners
+        </p>
       </header>
     </div>
   );
