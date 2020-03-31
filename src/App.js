@@ -1,10 +1,19 @@
 import React from "react";
 import Mansion from "./images/mansion.jpeg";
+import logo from "./images/logo.jpeg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <div id="header">
+        <a
+          href="https://girlscodemk.herokuapp.com/"
+          img
+          src={logo}
+          alt="Girls Code MK Logo"
+        ></a>
+      </div>
       <header className="App-header">
         <img src={Mansion} alt="Bletchley Park Mansion" />
         <p>women Code MK</p>
