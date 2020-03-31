@@ -6,23 +6,21 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div id="header">
-        <a
-          href="https://girlscodemk.herokuapp.com/"
-          img
-          src={logo}
-          alt="Girls Code MK Logo"
-        ></a>
+      <div className="Header">
+        <a href="https://girlscodemk.herokuapp.com/">
+          <img src={logo} alt="Girls Code MK Logo" />
+        </a>
       </div>
       <header className="App-header">
         <img src={Mansion} alt="Bletchley Park Mansion" />
-        <p>women Code MK</p>
+        <p>Girls Code MK</p>
         <p>
-          Hello and Welcome! Our office is located in Bletchley Park, the home
-          of the 'codebreakers'
+          This has changed We support girls and women in their coding journey by
+          offering free workshops and meetups for members of all ages and
+          skills.
         </p>
         <p>To book a place for our meetup use the following link</p>
-        <a href="https://www.meetup.com/women-Code-Learn-to-Code-with-Other-women-and-Women/messages/boards/thread/51951778">
+        <a href="https://www.meetup.com/women-Code-Learn-to-Code-with-Other-women-and-Woen/messages/boards/thread/51951778">
           Book Here
         </a>
         <p>
