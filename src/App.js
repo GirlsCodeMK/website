@@ -6,11 +6,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="Header">
-        <a href="https://girlscodemk.herokuapp.com/">
-          <img src={logo} alt="Girls Code MK Logo" />
-        </a>
-      </div>
+      <a href="https://girlscodemk.herokuapp.com/">
+        <img src={logo} alt="Girls Code MK Logo" />
+      </a>
       <header className="App-header">
         <img src={Mansion} alt="Bletchley Park Mansion" />
         <p>Girls Code MK</p>
