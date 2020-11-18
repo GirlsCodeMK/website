@@ -7,9 +7,15 @@
     "node": "10.16.2"
   },
   "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-webpack-plugin": "^2.1.0",
+    "node-sass": "4.14.1",
+    "npm": "^7.0.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.4.4",
+    "sass": "1.27.0",
+    "typescript": "3.9.7"
   },
   "scripts": {
     "start": "react-scripts start",
