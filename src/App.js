@@ -1,13 +1,14 @@
-import React from "react";
-import Mansion from "./images/mansion.jpeg";
-import Logo from "./images/logo192.png";
-import TNMOC from "./images/logoTNMOC.jpg";
-import MKCF from "./images/logoMKCommunityFoundation.png";
-import IPCortex from "./images/logoipcortex.jpeg";
-import Django from "./images/logodjangogirls.png";
-import Nodeschool from "./images/nodeschool.png";
-import Workshop from "./images/girlscodemkmeetup.jpg";
-import "./App.css";
+import React from 'react'
+import Mansion from './images/mansion.jpeg'
+import Logo from './images/logo192.png'
+import TNMOC from './images/logoTNMOC.jpg'
+import MKCF from './images/logoMKCommunityFoundation.png'
+import IPCortex from './images/logoipcortex.jpeg'
+import Django from './images/logodjangogirls.png'
+import Nodeschool from './images/nodeschool.png'
+import Workshop from './images/girlscodemkmeetup.jpg'
+import './App.scss'
+import { Menu } from './menu'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <a href="https://girlscodemk.herokuapp.com/">
         <img src={Logo} alt="Girls Code MK Logo" />
       </a>
+      <Menu />
       <header className="App-header">
         Girls Code MK
         <p>
@@ -33,10 +35,11 @@ function App() {
         src="https://player.vimeo.com/video/283072310"
         width="640"
         height="360"
-        frameborder="0"
-        allowfullscreen
+        frameBorder="0"
+        allowFullScreen
       ></iframe>
-      <div Blocktext>
+
+      <div className="Blocktext">
         <p>
           GirlsCode MK is a volunteer organisation whose aim is to get more
           girls and women into programming and STEM careers. We’re based in
@@ -96,7 +99,7 @@ function App() {
       <img src={MKCF} alt="Milton Keynes Community Foundation" />
       <img src={IPCortex} alt="IP Cortex" />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

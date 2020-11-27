@@ -1,7 +1,10 @@
+// just to test scss
+$margin: 100px;
+
 .App {
   text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: $margin;
+  margin-right: $margin;
   block-size: auto;
 }
 
